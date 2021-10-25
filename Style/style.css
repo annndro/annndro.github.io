@@ -1,0 +1,139 @@
+body{
+	background-image:url("../Images/koscya-n-NHjAEquDtkA-unsplash.jpg"); 
+	background-size: cover; 
+	font-family:Arial;
+	color:white;
+}
+h2{
+	margin-left:10px;
+	border-color:black;
+}
+.main_header{
+	text-shadow: 2px 2px 5px green;
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:250%;
+}
+.header{
+	text-shadow: 2px 2px 5px green;
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:150%;
+}
+.page_tab{
+	font-family:Arial;
+	color:white;
+	text-decoration:none;
+	font-size:120%;
+	margin:25px; 
+}
+ul.a{
+	list-style-type: circle;
+}
+#img1{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:20px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:45%;
+}
+#cover_letter{
+	color:black;
+	background:#FFDB58;
+	flex:2;
+	padding:10px 100px 10px 100px;
+}
+.flexbox_container_3 div{
+	border:0px; 
+	padding:10px 25px 10px 25px;
+	background-color:#ffdb58;
+}
+.flexbox_container_3 {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	flex-wrap:wrap;
+	text-decoration:none;
+	background:rgba(255,219,88,0.4);
+	padding:5px 5px 5px 5px;
+}
+.flexbox_container_1 div{
+	border:1px grey solid; 
+	padding:10x;
+}
+.flexbox_container_1{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:stretch;
+	flex-wrap:wrap;
+	background:rgba(255,219,88,0.4);
+}
+.flexbox_row_1{
+	flex:1;
+	flex-basis:30%;
+}
+.flexbox_row_2{
+	flex:1;
+	flex-basis:30%;
+}
+.flexbox_row_3{
+	flex:1;
+	flex-basis:30%;
+}
+.flexbox_container_2 div{
+	border:1px grey solid; 
+	height:300px;
+	width:500px;
+	padding:10px;
+	background-color:rgba(255,219,88,0.4);
+}
+.flexbox_container_2{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.flexbox_column_1{
+	flex:1;
+	flex-basis:20%;
+}
+.flexbox_column_2{
+	flex:1;
+	flex-basis:20%;
+}
+.flexbox_column_3{
+	flex:1;
+	flex-basis:20%;
+}
+@media (max-width:700px){
+	.flexbox_container_1 div{
+		flex-direction:column;
+		background-color:rgba(255,0,0,0.5);
+		flex:100%;
+		width:100%;
+	}		
+	.flexbox_container_2 div{
+		flex-direction:column;
+		background-color:rgba(255,168,15,0.5);
+		font-size:130%;
+		flex:100%;
+		width:100%;
+	}
+	.flexbox_container_3 {
+		display:flex;
+		flex-direction:column;
+		justify-content:space-around;
+		align-items:center;
+		flex-wrap:wrap;
+		text-decoration:none;	
+}	
