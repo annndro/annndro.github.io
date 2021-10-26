@@ -14,7 +14,7 @@ h2{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	font-size:250%;
+	font-size:400%;
 }
 .header{
 	text-shadow: 2px 2px 5px green;
@@ -34,15 +34,15 @@ h2{
 ul.a{
 	list-style-type: circle;
 }
-#img1{
+#img{
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	padding:20px;
-	width:200px;
+	width:300px;
 	margin-left:auto;
 	margin-right:auto;
-	border-radius:45%;
+	
 }
 #cover_letter{
 	color:black;
@@ -59,12 +59,13 @@ ul.a{
 	display:flex;
 	flex-direction:row;
 	justify-content:space-around;
-	align-items:center;
+	align-items:stretch;
 	flex-wrap:wrap;
 	text-decoration:none;
 	background:rgba(255,219,88,0.4);
 	padding:5px 5px 5px 5px;
 }
+
 .flexbox_container_1 div{
 	border:1px grey solid; 
 	padding:10x;
@@ -114,6 +115,10 @@ ul.a{
 .flexbox_column_3{
 	flex:1;
 	flex-basis:20%;
+}
+.main_footer{
+	color: white;
+	font-family:Helvetica;
 }
 @media (max-width:700px){
 	.flexbox_container_1 div{
